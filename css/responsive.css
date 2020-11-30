@@ -1,0 +1,148 @@
+*{margin:0;padding:0;}
+
+@media (max-width:768px){
+	header.TopBar {
+    width: 100%;
+    background-position:right;
+}
+
+section.container {
+    width: 100%;
+}
+
+.SocialIcon {
+    width: 100%;
+}
+
+.logo {
+    width: 13%;
+    float: none;
+}
+
+ul.MenuList {
+    width: 100%;
+    float: none;
+}
+
+.TitleName {
+    width: 100%;
+    margin-top: -63px;
+    padding-bottom: 0px;
+    height: 190px;
+}
+.headWrap {
+    padding: 15px;
+}
+.container {
+    width: 100%;
+}
+
+.aboutwrap {
+    padding: 10px;
+}
+
+.pic {
+    width: 24%;
+}
+
+p.mySpeech {
+    width: 100%;
+}
+.servicewrap {
+    padding: 10px;
+}
+
+.MyAllservice {
+    width: 100%;
+}
+
+.servicebox {
+    width: 90%;
+    float: none;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.servicebox3 {
+    width: 90%;
+    margin: auto;
+    float: none;
+    margin-bottom: 10px;
+}
+
+p.servicedetails {
+    width: 100%;
+}
+
+p.servicedetails {}
+
+.myP {
+    width: 100%;
+    float: none;
+    padding-left: 50px;
+}
+
+.tableWrap {
+    width: 90%;
+    float: none;
+    padding-left: 50px;
+}
+.mydetails {
+    width: 40%;
+}
+
+.LogoName {
+    width: 100%;
+}
+
+.contactList {
+    width: 30%;
+    margin-top: 20px;
+}
+
+.Linklist {
+    width: 30%;
+    margin-top: 22px;
+}
+
+h1.fcdetail {
+    width: 89%;
+    font-size: 23px;
+}
+
+h1.flinktitle {
+    width: 67%;
+    font-size: 22px;
+}
+.socialLink {
+    width: 100%;
+    margin-top: 12px;
+}
+
+.designDevelop {
+    width: 71%;
+    font-size: 12px;
+    margin-top: 20px;
+}
+.skillPic {
+    background-size: 100%;
+    width: 90%;
+    padding: 10px;
+}
+
+.skillTable {
+    width: 100%;
+    margin: auto;
+    float: none;
+}
+
+
+table {
+    width: 100%;
+    height: 63%;
+    margin: auto;
+}
+.footerWrap {
+    padding: 10px;
+}
+}

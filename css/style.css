@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+*{
+	padding:0;
+	margin:0;
+}
+.container{
+	max-width:1170px;
+	margin:auto;
+	padding:50px 0px;
+}
+header.TopBar{
+	background: linear-gradient(#232323ba,#000000d4),url(../image/raaj.jpeg);
+	background-repeat:no-repeat;
+	background-size:cover,cover;
+	min-height:100vh;
+
+}
+.MenuBar{
+	overflow:hidden;
+	padding-top: 35px;
+	
+}
+.logo{
+	width: 102px;
+	height: 76px;
+	float:left;
+}
+.MenuList{
+	float:right;
+	margin-top: 13px;
+	margin-right: -282px;
+}
+.MenuItem{
+	width:900px;
+	
+}
+.MenuList li{
+	list-style:none;
+	float:left;
+	
+}
+.MenuList li a{
+	text-decoration:none;
+	color:#c5c5c5;
+	padding:21px;
+	font-size: 20px;
+	font-family:oswald;
+	transition:0.5s;
+}
+.MenuList li a:hover{
+	color:white;
+}
+.TitleName{
+	color:white;
+	margin: 32px 0px;
+	font-family:oswald;
+	padding: 20px 0px;
+	padding-bottom: 50px;
+}
+
+h1.Name {
+    margin-top: 89px;
+    font-size: 50px;
+    font-family: cursive;
+    color: #efefef;
+}
+
+p.Position {font-size: 25px;margin-left: 46px;margin-top: 13px;font-family: ui-sans-serif;}
+.SocialIcon {
+    width: 500px;
+    margin: auto;
+    text-align: center;
+	margin-top:55px;
+	padding-bottom:50px;
+}
+.SocialIcon a {
+    color: white;
+    padding: 8px;
+    padding-bottom: 26px;
+    margin-bottom: 22px;
+}
+.SocialIcon a i{
+	font-size:30px;
+	margin-bottom:30px;
+	transition:0.5s;
+}
+
+span.connect {
+    margin-bottom: 31px;
+    font-size: 20px;
+    color: white;
+    font-family: oswald;
+    border: 1px solid #3c3c3b;
+    padding: 5px 15px;
+    background: #0a0a0a36;
+    box-shadow: inset 0px 0px 2px 0px #2d2d2d;
+}
+.SocialIcon a i:hover{
+	color:orange;
+}
+.pic{
+	width:150px;
+	overflow:hidden;
+	border-radius:100%;
+	margin:auto;
+	border:2px solid black;
+}
+.myImage{
+	width:100%;
+	
+}
+.aboutMe{
+	background:#f0f2f5;
+}
+.aboutwrap{
+	padding-top:30px;
+	padding-bottom:50px;
+}
+.contentText {
+    text-align: center;
+    padding-top: 20px;
+	color:#404040;
+}
+
+h1.Myname {
+    font-family: oswald;
+    font-size: 24px;
+    padding-bottom: 12px;
+}
+
+p.mySpeech {
+    font-size: 20px;
+    width: 891px;
+    margin: auto;
+}
+.Me {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+span.titleText {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #4a4a4a;
+    border-bottom: 1px solid #3100f5;
+}
+.servicewrap{
+	padding:30px 0px;
+}
+.servicebox {
+    width: 225px;
+    overflow: hidden;
+    float: left;
+    border: 1px solid black;
+    padding: 15px;
+    margin-right: 70px;
+	margin-bottom:30px;
+	height: 250px;
+}
+.Myservice{
+	display:block;
+	overflow:hidden;
+}
+.servicebox3 {
+    width: 225px;
+    overflow: hidden;
+    float: left;
+    border: 1px solid black;
+    padding: 15px;
+	height: 250px;
+}
+
+.icon {
+    font-size: 60px;
+    text-align: center;
+    padding-bottom: 17px;
+    color: red;
+}
+
+h1.serviceName {
+    font-family: oswald;
+    text-align: center;
+    padding-bottom: 10px;
+    color: #3e3e3e;
+}
+
+p.servicedetails {
+    font-size: 16px;
+    text-align: center;
+}
+.MyAllservice{
+	width:911px;
+	margin:auto;
+}
+table{
+	border-collapse:collapse;
+	font-family:arial;
+	text-align:left;
+	margin:auto;
+	width: 400px;
+	height: 297px;
+}
+td {
+    border: 1px solid #dcdcdc;
+    padding: 8px;
+}
+
+th {
+    border: 1px solid #e4e4e4;
+    padding: 8px;
+    text-align: center;
+	background-color:#dddddd;
+}
+tr:nth-child(even){
+	background-color:#dddddd;
+}
+td:first-child{
+	width:200px;
+}
+.skillPic{
+	width:320px;
+	overflow:hidden;
+	
+	padding:20px;
+	margin:auto;
+}
+
+img{
+	width:100%;
+}
+.myP{
+	width:550px;
+	overflow:hidden;
+	float:left;
+	border-right: 1px solid #dcdbdb;
+	margin-bottom: 50px;
+}
+section.skill {
+    background: #f0f2f5;
+	overflow:hidden;
+}
+.skillTitle {
+    margin: auto;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.tableWrap {
+    width: 600px;
+    float: left;
+    margin-top: 20px;
+}
+.skillPic{
+	background: linear-gradient(#3e3e3ecf,#3e3e3ecf),url(../image/riajskill.jpg);
+	height: 277px;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.flogo{
+	width:100px;
+	height:60px;
+	float: left;
+}
+.mydetails{
+	width:450px;
+	float:left;
+	margin-bottom: 20px;
+}
+.contactList{
+	width:350px;
+	float:left;
+	font-family: oswald;
+	margin-top: 12px;
+}
+.Linklist{
+	width:350px;
+	float:left;
+	margin-top: 13px;
+	font-family: oswald;
+}
+.fcontent{
+	display:block;
+	overflow:hidden;
+}
+.footName {
+    width: 350px;
+    margin-left: 118px;
+}
+
+h1.fnameTop {
+    padding-top: 20px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-family: oswald;
+    text-shadow: 0px 0px 13px #03ffe8;
+}
+.fdetyails {
+    font-size: 20px;
+    font-family: oswald;
+    line-height: 29px;
+}
+footer {
+    background: #2d2d2dfc;
+}
+
+.designDevelop {
+    color: white;
+    margin: auto;
+    text-align: center;
+    padding: 17px;
+    background: #1b1b1b;
+    font-size: 17px;
+    margin-top: 70px;
+    margin-bottom: -40px;
+    box-shadow: 0px 0px 11px 4px #ff000063;
+}
+.footerWrap{
+	color:white;
+}
+.footLink li a{
+	text-decoration:none;
+	color:white;
+}
+.footLink li{
+	list-style:none;
+}
+h1.fcdetail {
+    width: 220px;
+    border-bottom: 2px solid #676767;
+    margin-bottom: 35px;
+}
+h1.flinktitle {
+    width: 200px;
+    border-bottom: 2px solid #676767;
+    margin-bottom: 35px;
+}
+.socialLink {
+    width: 800px;
+    margin: auto;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 32px;
+}
+.socialLink a i{
+	color:red;
+	border-radius:100%;
+	transition:1s;
+}
+.socialLink a {
+    padding: 0px 15px;
+}
+.socialLink a i:hover{
+	transform: rotateY(360deg);
+	color:white;
+}
+.headWrap {
+    padding: 0px 42px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
